@@ -1,4 +1,4 @@
-## React Native Stopwatch Timer
+## React Native Stopwatch Timer  🌎
 
 A React Native component that provides a stopwatch and timer.
 
