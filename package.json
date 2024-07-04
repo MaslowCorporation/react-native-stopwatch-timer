@@ -1,0 +1,29 @@
+{
+  "name": "react-native-stopwatch-timer",
+  "version": "0.0.22",
+  "description": "A stopwatch/timer component for React Native.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaeljstevens/react-native-stopwatch-timer"
+  },
+  "scripts": {
+    "reset-main-branch": "git checkout --orphan latest_branch && git add -A && git commit -am \"First commit ;-)\" && git branch -D main && git branch -m main && git push -f --set-upstream origin main",
+    "push": "(git add . && git commit -m \"I'm a bigger pusher than Ice-T homie !!!\" && git push) || exit 0",
+
+    
+    "first-push": "npm run git-init && git add . && git commit -m \"first commit\" && git branch -M main && git remote add origin https://github.com/MaslowCorporation/react-native-stopwatch-timer.git && git push -u origin main",
+    "first-push-dev": "npm run git-init && git add . && git commit -m \"first commit\" && git branch -M main && git remote add origin https://github.com/MaslowCorporation/react-native-stopwatch-timer.git && git push -u origin main",
+    "git-init": "rimraf .git && git init"
+  },
+  "keywords": [
+    "react-native",
+    "stopwatch",
+    "timer"
+  ],
+  "author": {
+    "name": "Michael Stevens"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
